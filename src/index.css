@@ -5,9 +5,58 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: bisque;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.enter-input {
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.box1,
+.box2,
+.box3 {
+  padding: 20px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.list-of-tasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-of-tasks >* {
+  padding: 20px;
+  font-size: 20px;
+  margin: 20px;
+}
+.completed{
+  background-color:green;
+}
+select{
+  margin: 20px;
+    padding: 24px;
+}
+.player{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.players{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.score{
+  font-size: 80px;
 }
